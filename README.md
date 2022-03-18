@@ -13,6 +13,9 @@
 3. Start the local server
     • Terminal commands: `python mamage.py runserver`
 
+## Tutorial
+1. Type in a URL
+2. Click on generate
+3. A shortened link will be generated after 
+*** Do note that 'https://' is already provided!
 
-## License
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
