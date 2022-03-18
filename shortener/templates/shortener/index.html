@@ -1,0 +1,18 @@
+{% extends 'shortener/layout.html' %}
+{% load static %}
+{% block body %}
+    <script src="{% static 'shortener/index.js' %}"></script>
+    <h1 class="display-1">URL Shortener</h1>
+    <hr>
+    <div id="container">
+        <div class="input-group mb-3">
+          <span class="input-group-text">https://</span>
+          <input id ="inurl" type="text" class="form-control" placeholder="Type in URL Here" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Generate</button>
+        </div>
+        <div id="alert" class="alert alert-success" role="alert">
+          <h4 class="alert-heading">URL Generated!</h4>
+          <p id="url-message"></p>
+        </div>
+    </div>
+{% endblock %}
