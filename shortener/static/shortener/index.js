@@ -3,6 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const button = document.querySelector('#button-addon2');
     const url = document.querySelector('#inurl');
     button.addEventListener('click', () => gen_url(url.value));
+    url.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+            gen_url(url.value);
+        }
+    })
 
 
 })
