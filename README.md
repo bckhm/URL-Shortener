@@ -17,5 +17,5 @@
 1. Type in a URL
 2. Click on generate or simply press Enter 
 3. A shortened link will be generated after<br>
-<span style="color:red"> Note: 'https://' is already provided! No need to include that in the input :) </span>.
+<span style="color:red"> Note: 'https://' is already provided! No need to include that in the input :) </span>
 
