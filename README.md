@@ -16,6 +16,6 @@
 ## Tutorial
 1. Type in a URL
 2. Click on generate
-3. A shortened link will be generated after <br>
-<span style="color:red">'https://' is already provided! No need to include that in the input :) </span>.
+3. A shortened link will be generated after<br>
+<span style="color:red"> Note: 'https://' is already provided! No need to include that in the input :) </span>.
 
